@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  ><title>News</title>
+  <script src="news.js" type="module"></script>
+</head>
+
+<body onload="window.getDogs.getDogs()">
+
+  <h1>Dogs</h1>
+  <ul class="topnav">
+    <li><a href="../../../index.html">Home</a></li>
+    <li><a class="active" href="news.html">Dogs</a></li>
+    <li><a href="../Contact/contact.html">Contact</a></li>
+  </ul>
+
+  <nav>
+    <ul>
+      <li>AJAX and DOM</li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 class="grid-row">Ajax and DOM with JS</h1>
+
+    <div class="grid-row">
+      <div class="grid-col">
+        <button class="btn-primary" onclick="window.getDogs.getDogs();">Send Ajax Request</button>
+      </div>
+      <div class="grid-col"></div>
+    </div>
+
+    <div class="grid-col-4">
+      <h1>List of Objects</h1>
+    </div>
+    <div class="grid-col-4"></div>
+
+    <div class="grid-col-4">
+      <h1>Wishlist</h1>
+    </div>
+
+    <div class="grid-col-4">
+      <ul class="listgroup" id="item-list">
+        <!-- List gets appended with JS -->
+      </ul>
+    </div>
+
+    <div class="grid-col-4"></div>
+
+    <div class="grid-col-4">
+      <ul class="listgroup" id="wishlist">
+        <!-- List gets appended with JS -->
+      </ul>
+    </div>
+  </main>
+
+</body>
+
+</html>
