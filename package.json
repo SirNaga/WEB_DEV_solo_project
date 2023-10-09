@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.tsx",
-    "test": "jest --watchAll --verbose --coverage --transformIgnorePatterns \"node_modules/(?!@tWEB_DEV_SOLO_Project)/\" --env=jsdom"
+    "test": "jest --env=jsdom"
   },
   "jest": {
     "transform": {

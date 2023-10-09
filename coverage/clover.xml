@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1696786397084" clover="3.2.0">
-  <project timestamp="1696786397084" name="All files">
+<coverage generated="1696791666822" clover="3.2.0">
+  <project timestamp="1696791666822" name="All files">
     <metrics statements="49" coveredstatements="26" conditionals="24" coveredconditionals="12" methods="6" coveredmethods="4" elements="79" coveredelements="42" complexity="0" loc="49" ncloc="49" packages="1" files="1" classes="1"/>
     <file name="contact.js" path="C:\Entwicklung\Angular\WEB_DEV_Project\WEB_DEV_SOLO_Project\src\SubPage\Contact\contact.js">
       <metrics statements="49" coveredstatements="26" conditionals="24" coveredconditionals="12" methods="6" coveredmethods="4"/>
