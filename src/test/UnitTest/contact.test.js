@@ -1,7 +1,4 @@
-import { sum, validateName } from '../../SubPage/Contact/contact.js';
-import { validateTelNumber } from '../../SubPage/Contact/contact.js';
-import { validateEMail } from '../../SubPage/Contact/contact.js';
-import { validatePassword } from '../../SubPage/Contact/contact.js';
+import { validateName, validateTelNumber, validateEMail, validatePassword } from '../../SubPage/Contact/contact.js';
 
 window.alert = jest.fn();
 

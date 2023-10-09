@@ -39,11 +39,9 @@ var app = (function () {
 
   let showDogs = function (data) {
     let listContainer = document.getElementById('item-list'); //get the ul element
-    let count = 0;
     for (let key in data) {
       let listItem = createListItem(key, 'Add to Wishlist');
       listContainer.append(listItem);
-      count++;
     }
   };
 

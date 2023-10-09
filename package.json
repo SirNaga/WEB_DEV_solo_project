@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext .js,.tsx",
+    "lint": "eslint . --ext .js",
     "test": "jest --env=jsdom"
   },
   "jest": {
