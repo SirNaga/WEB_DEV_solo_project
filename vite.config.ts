@@ -10,4 +10,5 @@ export default defineConfig({
       },
     },
   },
+  base: '/WEB_DEV_solo_project/',
 });
